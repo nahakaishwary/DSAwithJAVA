@@ -3,6 +3,7 @@ package DSAwithJAVA.Arrays;
 import java.util.Scanner;
 
 public class transposeMatrix {
+    // for printing an array
     static void printMatrix(int matrix[][]){
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix[i].length;j++){
